@@ -1,0 +1,137 @@
+*
+{
+    margin: 0px;
+}
+header
+{
+    background: linear-gradient(45deg,blue,blue,rgb(97, 105, 216),aqua,aqua);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1
+{
+    color: white;
+}
+div
+{
+    text-align: center;
+}
+header>#link
+{
+    color: white;
+    text-decoration: none;
+}
+header>#links>a
+{
+    padding: 20px;
+    text-decoration: none;
+    font-family: cursive;
+}
+header>#links>a:hover
+{
+    text-decoration: underline;
+}
+@media (min-width: 0px) and (max-width: 900px)
+{
+    header
+    {
+        flex-direction: column;
+        height: 75px;
+    }
+    header>#links
+    {
+        position: relative;
+        top: -8px;
+    }
+}
+#landing
+{
+    text-align: center;
+    background:url(../images/cricketers/indw.jpg) no-repeat 0px 0px;
+    color: white;
+    height: 400px;
+    padding-top: 500px;
+    background-size: cover;
+}
+#landing-pag>.content
+{
+    background:linear-gradient(45deg,blue,aqua,orange,aqua);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 500px;
+
+}
+button
+{
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(51, 52, 185);
+    border-color:2px solid black;
+    font-family: cursive;
+    margin-top: 15px;
+}
+button:hover
+{
+    box-shadow:0px 0px 1px 2px white,0px 0px 2px 4px rgb(62, 56, 56);
+    cursor: pointer;
+}
+section
+{
+    text-align: center;
+    padding: 20px;
+}
+section>h1
+{
+    color: blue;
+    padding: 15px;
+    font-size: 30px;
+}
+#players-section>#players
+{
+    margin-top: 10px;
+}
+#players-section>#players>img
+{
+    width: 400px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 0px 10px 0px 10px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 1s linear 0s;;
+}
+#players-section>#players>img:hover
+{
+    cursor: pointer;
+    width: 300px;
+}
+#top-order
+{
+    padding: 20px;
+}
+figure
+{
+    box-shadow: 0 0 10px blue;
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+figure>img
+{
+    width: inherit;
+    height: inherit;
+}
+figcaption
+{
+    font-size: x-large;
+    font-weight: bold;
+}
